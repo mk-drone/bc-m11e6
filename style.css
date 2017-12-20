@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(181, 193, 204);   
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    margin: 5px;
+}
+
+.board {
+    margin: 0 auto;
+    line-height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.column-card-list {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.column-container {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    border: solid 1px#abc;
+    background: #abc;
+}
+
+.card {
+    line-height: 10px;
+    background: rgb(158, 180, 202);
+    margin-top: 5px;
+}
+.card p {
+    padding: 5px 15px;
+}
